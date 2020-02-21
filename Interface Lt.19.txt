@@ -1,0 +1,54 @@
+  Port     Name       Status  Config-mode   Speed    Type       Tagged Untagged
+  -------- ---------- ------- ------------- -------- ---------- ------ --------
+  1        1901       Up      Auto          1000FDx  100/1000T  multi  777     
+  2        1902       Up      Auto          1000FDx  100/1000T  multi  777     
+  3        1903       Up      Auto          100FDx   100/1000T  multi  777     
+  4        1905       Up      Auto          100FDx   100/1000T  No     81      
+  5        1906       Up      Auto          100FDx   100/1000T  multi  81      
+  6        1907       Up      Auto          1000FDx  100/1000T  multi  777     
+  7        1908       Up      Auto          1000FDx  100/1000T  multi  777     
+  8        1909       Up      Auto          100FDx   100/1000T  No     81      
+  9        1910       Down    Auto          1000FDx  100/1000T  883    81      
+  10       1911       Up      Auto          1000FDx  100/1000T  multi  777     
+  11       1912       Up      Auto          1000FDx  100/1000T  multi  777     
+  12       1916       Up      Auto          100FDx   100/1000T  No     81      
+  13       1918       Up      Auto          1000FDx  100/1000T  multi  777     
+  14       1920       Up      Auto          100FDx   100/1000T  No     81      
+  15       1922       Up      Auto          1000FDx  100/1000T  multi  777     
+  16       1926       Down    Auto          1000FDx  100/1000T  No     81      
+  17       1926B      Up      Auto          1000FDx  100/1000T  multi  777     
+  18       1928       Up      Auto          1000FDx  100/1000T  multi  777     
+  19       1930       Up      Auto          100FDx   100/1000T  multi  81      
+  20       1932       Up      Auto          1000FDx  100/1000T  multi  777     
+  21       1936       Up      Auto          100FDx   100/1000T  No     81      
+  22       1938       Up      Auto          1000FDx  100/1000T  multi  777     
+  23       1940       Up      Auto          100FDx   100/1000T  No     81      
+  24       1941       Up      Auto          1000FDx  100/1000T  multi  777     
+  25       1942       Up      Auto          1000FDx  100/1000T  multi  777     
+  26       1943       Up      Auto          100FDx   100/1000T  No     81      
+  27       1945       Up      Auto          1000FDx  100/1000T  multi  777     
+  28       1946       Up      Auto          100FDx   100/1000T  No     81      
+  29       1947       Up      Auto          100FDx   100/1000T  No     81      
+  30       1948       Up      Auto          1000FDx  100/1000T  multi  777     
+  31       1949       Up      Auto          1000FDx  100/1000T  multi  777     
+  32       1950       Up      Auto          100FDx   100/1000T  No     81      
+  33       1952       Up      Auto          1000FDx  100/1000T  multi  777     
+  34       1956A      Up      Auto          100FDx   100/1000T  multi  777     
+  35       1956B      Up      Auto          1000FDx  100/1000T  multi  777     
+  36       Koridor 1  Up      Auto          1000FDx  100/1000T  multi  777     
+  37       Koridor 2  Up      Auto          100FDx   100/1000T  multi  777     
+  38       Koridor 3  Up      Auto          1000FDx  100/1000T  multi  777     
+  39                  Down    Auto          1000FDx  100/1000T  No     1       
+  40                  Down    Auto          1000FDx  100/1000T  No     1       
+  41                  Down    Auto          1000FDx  100/1000T  No     1       
+  42                  Down    Auto          1000FDx  100/1000T  No     1       
+  43                  Down    Auto          1000FDx  100/1000T  No     1       
+  44                  Down    Auto          1000FDx  100/1000T  No     1       
+  45                  Down    Auto          1000FDx  100/1000T  No     1       
+  46                  Down    Auto          1000FDx  100/1000T  No     1       
+  47                  Down    Auto          1000FDx  100/1000T  No     1       
+  48                  Down    Auto          1000FDx  100/1000T  883    777     
+  49       Uplink     Up      Auto          1000FDx  1000SX     multi  No      
+  50       Backup ... Down                                      multi  No      
+  51                  Down                                      No     1       
+  52                  Down                                      No     1       

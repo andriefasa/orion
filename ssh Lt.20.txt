@@ -1,0 +1,187 @@
+Running configuration:
+
+; J9772A Configuration Editor; Created on release #YA.16.06.0006
+; Ver #13:44.00.04.19.02.13.98.82.34.61.18.28.f3.84.9c.63.ff.37.27:43
+hostname "Switch-HSIA-Lt.20"
+ip default-gateway 172.12.0.1
+interface 1
+   name "2001"
+   exit
+interface 2
+   name "2002"
+   exit
+interface 3
+   name "2003"
+   exit
+interface 4
+   name "2005"
+   exit
+interface 5
+   name "2006"
+   exit
+interface 6
+   name "2007"
+   exit
+interface 7
+   name "2008"
+   exit
+interface 8
+   name "2009"
+   exit
+interface 9
+   name "2010"
+   exit
+interface 10
+   name "2011"
+   exit
+interface 11
+   name "2012"
+   exit
+interface 12
+   name "2016"
+   exit
+interface 13
+   name "2018"
+   exit
+interface 14
+   name "2020"
+   exit
+interface 15
+   name "2022"
+   exit
+interface 16
+   name "2026"
+   exit
+interface 17
+   name "2026B"
+   exit
+interface 18
+   name "2028"
+   exit
+interface 19
+   name "2030"
+   exit
+interface 20
+   name "2032"
+   exit
+interface 21
+   name "2036"
+   exit
+interface 22
+   name "2038"
+   exit
+interface 23
+   name "2040"
+   exit
+interface 24
+   name "2041"
+   exit
+interface 25
+   name "2042"
+   exit
+interface 26
+   name "2043"
+   exit
+interface 27
+   name "2045"
+   exit
+interface 28
+   name "2046"
+   exit
+interface 29
+   name "2047"
+   exit
+interface 30
+   name "2048"
+   exit
+interface 31
+   name "2049"
+   exit
+interface 32
+   name "2050"
+   exit
+interface 33
+   name "2052"
+   exit
+interface 34
+   name "2056A"
+   exit
+interface 35
+   name "2056B"
+   exit
+interface 36
+   name "Koridor 1"
+   exit
+interface 37
+   name "Koridor 2"
+   exit
+interface 38
+   name "Koridor 3"
+   exit
+interface 39
+   name "executive lounge 1"
+   exit
+interface 40
+   name "executive lounge 2"
+   exit
+interface 41
+   name "TV executive lounge 1"
+   exit
+interface 42
+   name "TV executive lounge 2"
+   exit
+interface 43
+   name "TV executive lounge 3"
+   exit
+interface 44
+   name "TV executive lounge 4"
+   exit
+interface 49
+   name "Uplink"
+   exit
+interface 50
+   name "Backup Uplink"
+   exit
+snmp-server community "public" unrestricted
+snmp-server contact "Accor" location "Swissotel"
+vlan 1
+   name "DEFAULT_VLAN"
+   no untagged 1-45,48
+   untagged 46-47,49-52
+   no ip address
+   exit
+vlan 11
+   name "BOH_Swissotel"
+   no ip address
+   exit
+vlan 81
+   name "VLAN81-IP-TV"
+   untagged 4-5,8-9,12,14,16,19,21,23,26,28-29,32,41-45
+   tagged 1-3,6-7,10-11,13,15,17-18,22,24-25,27,30-31,33-35,49-50
+   no ip address
+   ip igmp
+   no ip igmp fastleave 4,7-9,12,14,16,20-21,23,26,28-29,32
+   ip igmp querier interval 60
+   exit
+vlan 777
+   name "VLAN777-MGM"
+   untagged 1-3,6-7,10-11,13,15,17-18,20,22,24-25,27,30-31,33-40,48
+   tagged 49-50
+   ip address 172.12.20.31 255.255.224.0
+   exit
+vlan 883
+   name "VLAN883-HSIA"
+   tagged 1-3,5-7,9-11,13,15,17-20,22,24-25,27,30-31,33-40,48-50
+   no ip address
+   exit
+vlan 884
+   name "VLAN884-BOD"
+   tagged 1-3,5-7,10-11,13,15,17-22,24-25,27,30-31,33-40,49-50
+   no ip address
+   exit
+primary-vlan 777
+no tftp server
+no dhcp config-file-update
+no dhcp image-file-update
+password manager
+password operator

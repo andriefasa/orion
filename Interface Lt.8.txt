@@ -1,0 +1,54 @@
+  Port     Name       Status  Config-mode   Speed    Type       Tagged Untagged
+  -------- ---------- ------- ------------- -------- ---------- ------ --------
+  1        832        Up      Auto          1000FDx  100/1000T  multi  777     
+  2        836        Up      Auto          100FDx   100/1000T  No     81      
+  3        838        Up      Auto          1000FDx  100/1000T  multi  777     
+  4        840        Up      Auto          100FDx   100/1000T  No     81      
+  5        842        Up      Auto          1000FDx  100/1000T  multi  777     
+  6        846        Up      Auto          100FDx   100/1000T  No     81      
+  7        848        Up      Auto          1000FDx  100/1000T  multi  777     
+  8        850        Up      Auto          100FDx   100/1000T  No     81      
+  9        852        Up      Auto          1000FDx  100/1000T  multi  777     
+  10       856A       Up      Auto          1000FDx  100/1000T  multi  777     
+  11       856B       Up      Auto          1000FDx  100/1000T  multi  777     
+  12                  Down    Auto          1000FDx  100/1000T  No     81      
+  13       Koridor 1  Up      Auto          1000FDx  100/1000T  multi  777     
+  14       Unifi O... Down    Auto          1000FDx  100/1000T  multi  777     
+  15       Koridor 2  Up      Auto          1000FDx  100/1000T  multi  777     
+  16       Unifi O... Down    Auto          1000FDx  100/1000T  multi  777     
+  17       TV Yoga    Up      Auto          100FDx   100/1000T  multi  81      
+  18                  Down    Auto          1000FDx  100/1000T  No     81      
+  19       TV Gym     Up      Auto          100FDx   100/1000T  multi  81      
+  20                  Up      Auto          100FDx   100/1000T  No     208     
+  21                  Down    Auto          1000FDx  100/1000T  multi  208     
+  22                  Down    Auto          1000FDx  100/1000T  No     208     
+  23                  Up      Auto          100FDx   100/1000T  multi  208     
+  24                  Up      Auto          1000FDx  100/1000T  No     208     
+  25                  Down    Auto          1000FDx  100/1000T  multi  208     
+  26                  Down    Auto          1000FDx  100/1000T  No     208     
+  27                  Up      Auto          100FDx   100/1000T  multi  208     
+  28                  Up      Auto          1000FDx  100/1000T  No     208     
+  29                  Down    Auto          1000FDx  100/1000T  multi  208     
+  30                  Up      Auto          1000FDx  100/1000T  No     11      
+  31                  Up      Auto          1000FDx  100/1000T  multi  11      
+  32                  Down    Auto          1000FDx  100/1000T  No     11      
+  33                  Up      Auto          1000FDx  100/1000T  multi  11      
+  34                  Down    Auto          1000FDx  100/1000T  No     11      
+  35                  Down    Auto          1000FDx  100/1000T  multi  11      
+  36                  Down    Auto          1000FDx  100/1000T  No     11      
+  37       Depan Pool Up      Auto          1000FDx  100/1000T  multi  777     
+  38       Gym Wifi   Up      Auto          1000FDx  100/1000T  multi  777     
+  39       Koridor... Up      Auto          1000FDx  100/1000T  multi  777     
+  40       Belakan... Up      Auto          1000FDx  100/1000T  multi  777     
+  41       Spa Wifi   Up      Auto          1000FDx  100/1000T  multi  777     
+  42       Wifi Po... Down    Auto          1000FDx  100/1000T  multi  777     
+  43                  Down    Auto          1000FDx  100/1000T  multi  777     
+  44                  Down    Auto          1000FDx  100/1000T  No     81      
+  45                  Down    Auto          1000FDx  100/1000T  multi  777     
+  46                  Down    Auto          1000FDx  100/1000T  No     81      
+  47                  Down    Auto          1000FDx  100/1000T  multi  777     
+  48                  Down    Auto          1000FDx  100/1000T  multi  777     
+  49                  Up      Auto          1000FDx  1000SX     multi  No      
+  50                  Down                                      777    No      
+  51                  Down                                      777    No      
+  52                  Down                                      777    No      

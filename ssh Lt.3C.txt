@@ -1,0 +1,48 @@
+Running configuration:
+
+; J9775A Configuration Editor; Created on release #YA.16.06.0006
+; Ver #13:44.00.04.19.02.13.98.82.34.61.18.28.f3.84.9c.63.ff.37.27:43
+hostname "Switch-HSIA-Lt.3C"
+ip default-gateway 182.12.0.1
+interface 1
+   name "TV-Phonebooth"
+   exit
+interface 2
+   name "TV-Phonebooth 2"
+   exit
+interface 48
+   name "UPLINK Lt.9"
+   exit
+snmp-server community "public" unrestricted
+vlan 1
+   name "DEFAULT_VLAN"
+   no untagged 1-2,47-48
+   untagged 3-46,49-52
+   ip address dhcp-bootp
+   exit
+vlan 81
+   name "VLAN81"
+   untagged 1-2
+   tagged 48
+   no ip address
+   ip igmp
+   ip igmp querier interval 10
+   exit
+vlan 777
+   name "VLAN777"
+   untagged 47
+   tagged 48
+   ip address 172.12.6.31 255.255.224.0
+   exit
+vlan 883
+   name "VLAN883"
+   tagged 47-48
+   no ip address
+   exit
+vlan 884
+   name "VLAN884"
+   tagged 47-48
+   no ip address
+   exit
+password manager
+password operator

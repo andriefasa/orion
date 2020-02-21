@@ -1,0 +1,162 @@
+Running configuration:
+
+; J9772A Configuration Editor; Created on release #YA.16.06.0006
+; Ver #13:44.00.04.19.02.13.98.82.34.61.18.28.f3.84.9c.63.ff.37.27:43
+hostname "Switch-HSIA-Lt.19"
+ip default-gateway 172.12.0.1
+interface 1
+   name "1901"
+   exit
+interface 2
+   name "1902"
+   exit
+interface 3
+   name "1903"
+   exit
+interface 4
+   name "1905"
+   exit
+interface 5
+   name "1906"
+   exit
+interface 6
+   name "1907"
+   exit
+interface 7
+   name "1908"
+   exit
+interface 8
+   name "1909"
+   exit
+interface 9
+   name "1910"
+   exit
+interface 10
+   name "1911"
+   exit
+interface 11
+   name "1912"
+   exit
+interface 12
+   name "1916"
+   exit
+interface 13
+   name "1918"
+   exit
+interface 14
+   name "1920"
+   exit
+interface 15
+   name "1922"
+   exit
+interface 16
+   name "1926"
+   exit
+interface 17
+   name "1926B"
+   exit
+interface 18
+   name "1928"
+   exit
+interface 19
+   name "1930"
+   exit
+interface 20
+   name "1932"
+   exit
+interface 21
+   name "1936"
+   exit
+interface 22
+   name "1938"
+   exit
+interface 23
+   name "1940"
+   exit
+interface 24
+   name "1941"
+   exit
+interface 25
+   name "1942"
+   exit
+interface 26
+   name "1943"
+   exit
+interface 27
+   name "1945"
+   exit
+interface 28
+   name "1946"
+   exit
+interface 29
+   name "1947"
+   exit
+interface 30
+   name "1948"
+   exit
+interface 31
+   name "1949"
+   exit
+interface 32
+   name "1950"
+   exit
+interface 33
+   name "1952"
+   exit
+interface 34
+   name "1956A"
+   exit
+interface 35
+   name "1956B"
+   exit
+interface 36
+   name "Koridor 1"
+   exit
+interface 37
+   name "Koridor 2"
+   exit
+interface 38
+   name "Koridor 3"
+   exit
+interface 49
+   name "Uplink"
+   exit
+interface 50
+   name "Backup Uplink"
+   exit
+snmp-server community "public" unrestricted
+snmp-server contact "Accor" location "Swissotel"
+vlan 1
+   name "DEFAULT_VLAN"
+   no untagged 1-38,48-50
+   untagged 39-47,51-52
+   no ip address
+   exit
+vlan 81
+   name "VLAN81-IP-TV"
+   untagged 4-5,8-9,12,14,16,19,21,23,26,28-29,32
+   tagged 1-3,6-7,10-11,13,15,17-18,20,22,24-25,27,30-31,33-35,49-50
+   no ip address
+   exit
+vlan 777
+   name "VLAN777-MGM"
+   untagged 1-3,6-7,10-11,13,15,17-18,20,22,24-25,27,30-31,33-38,48
+   tagged 49-50
+   ip address 172.12.19.31 255.255.224.0
+   exit
+vlan 883
+   name "VLAN883-HSIA"
+   tagged 1-3,5-7,9-11,13,15,17-20,22,24-25,27,30-31,33-38,48-50
+   no ip address
+   exit
+vlan 884
+   name "VLAN884-BOD"
+   tagged 1-3,5-7,10-11,13,15,17-20,22,24-25,27,30-31,33-38,49-50
+   no ip address
+   exit
+primary-vlan 777
+no tftp server
+no dhcp config-file-update
+no dhcp image-file-update
+password manager
+password operator

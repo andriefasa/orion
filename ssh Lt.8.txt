@@ -1,0 +1,141 @@
+Running configuration:
+
+; J9772A Configuration Editor; Created on release #YA.16.06.0006
+; Ver #13:44.00.04.19.02.13.98.82.34.61.18.28.f3.84.9c.63.ff.37.27:43
+hostname "Switch-HSIA-Lt.8"
+ip default-gateway 172.12.0.1
+interface 1
+   name "832"
+   exit
+interface 2
+   name "836"
+   exit
+interface 3
+   name "838"
+   exit
+interface 4
+   name "840"
+   exit
+interface 5
+   name "842"
+   exit
+interface 6
+   name "846"
+   exit
+interface 7
+   name "848"
+   exit
+interface 8
+   name "850"
+   exit
+interface 9
+   name "852"
+   exit
+interface 10
+   name "856A"
+   exit
+interface 11
+   name "856B"
+   exit
+interface 13
+   name "Koridor 1"
+   exit
+interface 14
+   name "Unifi Outdoor 1"
+   exit
+interface 15
+   name "Koridor 2"
+   exit
+interface 16
+   name "Unifi Outdoor 2"
+   exit
+interface 17
+   name "TV Yoga"
+   no power-over-ethernet
+   exit
+interface 19
+   name "TV Gym"
+   no power-over-ethernet
+   exit
+interface 21
+   no power-over-ethernet
+   exit
+interface 23
+   no power-over-ethernet
+   exit
+interface 37
+   name "Depan Pool"
+   exit
+interface 38
+   name "Gym Wifi"
+   exit
+interface 39
+   name "Koridor Spa"
+   exit
+interface 40
+   name "Belakang Reception"
+   exit
+interface 41
+   name "Spa Wifi"
+   exit
+interface 42
+   name "Wifi PoolBar"
+   exit
+snmp-server community "public" unrestricted
+snmp-server contact "Accor" location "Swissotel"
+vlan 1
+   name "DEFAULT_VLAN"
+   no untagged 1-52
+   no ip address
+   exit
+vlan 10
+   name "VLAN10"
+   no ip address
+   exit
+vlan 11
+   name "VLAN11"
+   untagged 30-36
+   tagged 49
+   no ip address
+   exit
+vlan 81
+   name "VLAN-IPtv"
+   untagged 2,4,6,8,12,17-19,44,46
+   tagged 1,3,5,7,9-11,13,15,21,23,25,27,29,31,33,35,37,39,41,43,45,47,49
+   no ip address
+   ip igmp
+   ip igmp querier interval 60
+   exit
+vlan 208
+   name "VLAN208"
+   untagged 20-29
+   tagged 49
+   no ip address
+   exit
+vlan 777
+   name "VLAN777"
+   untagged 1,3,5,7,9-11,13-16,37-43,45,47-48
+   tagged 49-52
+   ip address 172.12.8.31 255.255.224.0
+   exit
+vlan 883
+   name "VLAN-HSIA"
+   tagged 1,3,5,7,9-11,13-17,19,21,23,25,27,29,31,33,35,37-43,45,47-49
+   no ip address
+   exit
+vlan 884
+   name "VLAN-BOD"
+   tagged 1,3,5,7,9-11,13-17,19,21,23,25,27,29,31,33,35,37-43,45,47-49
+   no ip address
+   exit
+vlan 885
+   name "VLAN885"
+   tagged 1,3,5,7,9-11,13-17,19,21,23,25,27,29,31,33,35,37-43,45,47-49
+   no ip address
+   exit
+primary-vlan 777
+no tftp server
+no dhcp config-file-update
+no dhcp image-file-update
+password manager
+password operator
